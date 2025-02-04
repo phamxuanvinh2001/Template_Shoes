@@ -1,0 +1,14 @@
+@media only screen and (max-width:768px) {
+    .col-sm-3 {
+        width: 50% !important;
+        float: left;
+    }
+    /* Footer */
+    .footer {
+        .list-item {
+            .col-6 {
+                width: 33.3334%;
+            }
+        }
+    }
+}

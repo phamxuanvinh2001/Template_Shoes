@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #8fe48f;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.wrapper .form .btn {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.wrapper .form .header h3 {
+  margin-bottom: 10px;
+}
+
+.wrapper .form .header .edit-account {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 15px;
+  border: 1px solid #a59797;
+}
+
+.wrapper .form .header .btn-login {
+  background: #386fe6;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=create.css.map */

@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #8a8a8a !important;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-6 {
+  width: 16.6667%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.menu {
+  list-style: none;
+}
+
+p {
+  margin: 0 !important;
+}
+
+ul {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+.content {
+  padding: 10px;
+}
+
+.header .logo {
+  text-align: center;
+}
+
+.header .menu-header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .menu-header ul li a {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #666666;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header .menu-header ul li a:hover {
+  color: #f2434a;
+}
+
+.header .group-login {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .group-login .item {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 15px;
+  color: #8a8a8a;
+}
+
+.header .group-login .item.btn-search {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=header.css.map */

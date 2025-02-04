@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fragments/footer.css">
+    <link rel="stylesheet" href="../fragments/header.css">
+    <link rel="stylesheet" href="productDetail.css">
+    <link rel="stylesheet" href="lightslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>ProductDetail</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="clearfix">
+                <div class="col col-2 logo">
+                    <img src="../image/header/logo.png" alt="">
+                </div>
+                <div class="col col-60 menu menu-header">
+                    <ul>
+                        <li><a href="">Home <i class="fas fa-caret-down"></i></a></li>
+                        <li><a href="">Categories <i class="fas fa-caret-down"></i></a></li>
+                        <li><a href="">Product <i class="fas fa-caret-down"></i></a></li>
+                        <li><a href="">short code <i class="fas fa-caret-down"></i></a></li>
+                        <li><a href="">blog <i class="fas fa-caret-down"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col col-2 group-login">
+                    <button class="item btn-search">
+                    <i class="fas fa-search"></i>
+                   
+                </button>
+                    <a href="" class="item login">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="" class="item cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="content-main">
+        <div class="banner">
+            <ul class="menu menu-banner">
+                <li><a href="">Home</a></li>
+                <li><a href="">Detail</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="content-info-product">
+                <div class="clearfix">
+                    <div class="col col-50 show-image">
+                        <img src="../image/product/1.jpeg" alt="">
+                    </div>
+                    <div class="col col-50 info-order">
+                        <div class="info-header">
+                            <h1>BISSELL ZING BAGGED CANISTER VACUUM, PURPLE, 4122</h1>
+                            <ul class="list-unstyled">
+                                <li><span class="title">Vendo:</span><span class="content-title">Apollotheme</span></li>
+                                <li><span class="title">Sku:</span><span class="content-title">26-demo</span></li>
+                                <li><span class="title">Availability:</span><span class="content-title">In Stock</span></li>
+                            </ul>
+                        </div>
+                        <div class="info-content">
+                            <div class="icon-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="color-product clearfix">
+                                <p class="title-color col col-2">Color :</p>
+                                <div class="content-color col col-8">
+                                    <span>White</span>
+                                    <span>Black</span>
+                                </div>
+                            </div>
+                            <div class="size-product clearfix">
+                                <p class="title-size col col-2">Size :</p>
+                                <div class="content-size col col-8">
+                                    <span>39</span>
+                                    <span>40</span>
+                                    <span>41</span>
+                                    <span>42</span>
+                                    <span>43</span>
+                                </div>
+                            </div>
+                            <p class="price">$54.88</p>
+                            <div class="amount">
+                                <p class="title col col-2">Quantity : </p>
+                                <div class="setup-amount col col-8">
+                                    <button class="btn-amount btn-less" id="less">-</button>
+                                    <input class="value-amount" id="count-product" type="text" value="1">
+                                    <button class="btn-amount btn-plus" id="plus">+</button>
+                                </div>
+                            </div>
+                            <div class="add-to-cart">
+                                <form action="">
+                                    <button class="btn-add-to-cart">add to cart</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="description-product">
+                <div class="title-des">
+                    <ul class="menu menu-info-product">
+                        <li class="active">More Info</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div class="content-des">
+                    <ul class="menu menu-content-des">
+                        <li>Product note: the color and logo design of this kit may vary depending on when the product was manufactured</li>
+                        <li>Lithium Ion Technology & 20V MAX: Lighter, more compact, no memory, longer life</li>
+                        <li>11 Position Clutch: Provides precise control for drilling into wood, metal, plastic, and all screwdriving tasks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="related-product">
+                <div class="title-header">
+                    <h1>related product</h1>
+                </div>
+                <div class="content-product row">
+                    <div class="col-sm-3">
+                        <div class="product content">
+                            <div class="image">
+                                <img src="../image/product/1.jpeg" alt="">
+                                <div class="list-btn">
+                                    <div class="click-btn view">
+                                        <i class="fas fa-arrows-alt"></i>
+                                    </div>
+                                    <div class="click-btn detail">
+                                        <a href=""><i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="click-btn favourite">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="click-btn form">
+                                        <form action="" class="add-to-cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <a href="" class="heading">Aeneanin consequated sagittis lacini</a>
+                                <div class="icon-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    $53.60
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="product content">
+                            <div class="image">
+                                <img src="../image/product/1.jpeg" alt="">
+                                <div class="list-btn">
+                                    <div class="click-btn view">
+                                        <i class="fas fa-arrows-alt"></i>
+                                    </div>
+                                    <div class="click-btn detail">
+                                        <a href=""><i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="click-btn favourite">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="click-btn form">
+                                        <form action="" class="add-to-cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <a href="" class="heading">Aeneanin consequated sagittis lacini</a>
+                                <div class="icon-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    $53.60
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="product content">
+                            <div class="image">
+                                <img src="../image/product/1.jpeg" alt="">
+                                <div class="list-btn">
+                                    <div class="click-btn view">
+                                        <i class="fas fa-arrows-alt"></i>
+                                    </div>
+                                    <div class="click-btn detail">
+                                        <a href=""><i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="click-btn favourite">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="click-btn form">
+                                        <form action="" class="add-to-cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <a href="" class="heading">Aeneanin consequated sagittis lacini</a>
+                                <div class="icon-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    $53.60
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="product content">
+                            <div class="image">
+                                <img src="../image/product/1.jpeg" alt="">
+                                <div class="list-btn">
+                                    <div class="click-btn view">
+                                        <i class="fas fa-arrows-alt"></i>
+                                    </div>
+                                    <div class="click-btn detail">
+                                        <a href=""><i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="click-btn favourite">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="click-btn form">
+                                        <form action="" class="add-to-cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <a href="" class="heading">Aeneanin consequated sagittis lacini</a>
+                                <div class="icon-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    $53.60
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <button class="subscribe">
+            <span>subscribe</span>
+        </button>
+            <div class="clearfix list-item">
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">your account</h3>
+                        <ul class="menu menu-item-footer">
+                            <li><a href="">Running Shoes</a></li>
+                            <li><a href="">Football Shoes</a></li>
+                            <li><a href="">Basketball Shoes</a></li>
+                            <li><a href="">Volleyball Shoes</a></li>
+                            <li><a href="">Trainee Shoes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">information</h3>
+                        <ul class="menu menu-item-footer">
+                            <li><a href="">Returns</a></li>
+                            <li><a href="">F.A.Q</a></li>
+                            <li><a href="">Shipping Policy</a></li>
+                            <li><a href="">Search Terms</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">quick links</h3>
+                        <ul class="menu menu-item-footer">
+                            <li><a href="">My orders</a></li>
+                            <li><a href="">My credit slips</a></li>
+                            <li><a href="">Beauty</a></li>
+                            <li><a href="">My addresses</a></li>
+                            <li><a href="">My personal info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">footer links</h3>
+                        <ul class="menu menu-item-footer">
+                            <li><a href="">Search</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Typo</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">service</h3>
+                        <ul class="menu menu-item-footer">
+                            <li><a href="">Search</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Typo</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="content">
+                        <h3 class="heading">happy hours</h3>
+                        <div class="info-open menu-item-footer">
+                            <p>Monday - Friday</p>
+                            <p>8a.m - 10 p.m</p>
+                            <p>Saturday & Sunday</p>
+                            <p>10a.m - 8 p.m</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-info-link">
+                <ul class="menu menu-link">
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="" class="wifi"><i class="fas fa-wifi"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <span>Ap shoes store © Copyright 2019. Powered by Shopify</span>
+            </div>
+            <!-- Scroll to Top -->
+            <div class="back-to-top">
+                <button class="btn-to-top" id="up-top"><i class="fa fa-chevron-up"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- <script src="lightslider.js"></script> -->
+    <!-- <script src="productDetail.js"></script> -->
+    <script src="product_detail.js"></script>
+    <script src="../fragments/footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
